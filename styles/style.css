@@ -3,6 +3,7 @@ body{
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
+    background-color: #fcfcfc;
 }
 
 /* Headder Style */
@@ -75,7 +76,7 @@ nav h3{
 }
 /* Collection Part Style */
 .collection-part{
-    margin: 40px 60px;
+    margin: 20px 60px;
 }
 
 .collection-heading{
@@ -83,7 +84,7 @@ nav h3{
     color: #3A3A3A;
 }
 .collection-items{
-    margin-top: 60px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 100px;
@@ -97,9 +98,14 @@ nav h3{
 .fa-star, .fa-star-half{
     color: orange;
 }
+.box-shadow{
+    box-shadow: 10px 10px 30px rgb(235, 235, 235);
+    padding: 20px;
+    border-radius: 10px;
+}
 .see-more{
     text-align: right;
-    margin-right: 50px;
+    margin-right: 30px;
     margin-top: 30px;
 }
 .see-more a{
@@ -107,4 +113,50 @@ nav h3{
     color: #44b1ef;
 }
 
+/* Join Now Section */
+.join-now{
+    display: flex;
+    margin: 80px 100px;
+}
+.join-now img{
+    height: 270px;
+    width: 404px;
+}
+.join-text{
+    margin-left: 100px;
+    width: 50%;
+}
+.join-text h1{
+    font-size: 38px;
+    color: 0A0826;
+}
+.join-text a{
+    text-decoration: none;
+    margin-top: 25px;
+    color: #3A3A3A;
+    background-color: #f1faff;
+    border-left: 5px solid #44b1ef;
+    display: block;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 30%;
+}
+
+/* Footer Section */
+footer{
+    border: 40px solid #0A0826;
+    background-color: #0A0826;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    font-size: 14px;
+}
+.social-icon a{
+    font-size: 20px;
+    color: white;
+    margin: 7px;
+}
 
