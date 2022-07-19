@@ -30,10 +30,12 @@ nav h3{
     display: flex;
     justify-content: space-between;
     margin: 30px 100px;
+    align-items: center;
 }
 .banner-text{
     height: 270px;
     width: 582px;
+    margin-top: -40px;
 }
 .banner-text h1{
     font-size: 52px;
